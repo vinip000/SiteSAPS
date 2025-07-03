@@ -1,50 +1,221 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SAPS</title>
-  <link rel="stylesheet" href="global.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAPS - Serviço de Atendimento à Pessoa Surda da UNIVALI. Há 44 anos promovendo educação especial e inclusão através de oficinas e atendimento pedagógico especializado.">
+  <meta name="keywords" content="SAPS, UNIVALI, Libras, educação especial, pessoa surda, fonoaudiologia, inclusão">
+  <meta name="author" content="SAPS - UNIVALI">
+  
+  <title>SAPS - Serviço de Atendimento à Pessoa Surda | UNIVALI</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.jpg">
 </head>
 <body>
-  <header>
-    <img src="./imagens/logo.jpg" alt="Logo SAPS" />
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#libras">Libras</a>
-      <a href="oficinas.html">Oficinas</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.jpg" alt="Logo SAPS" class="img-fluid">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#libras">Libras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oficinas">Oficinas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section id="sobre">
-    <h2>Sobre o SAPS</h2>
-    <p>O Serviço de Atendimento à Pessoa Surda (SAPS), vinculado ao Curso de Fonoaudiologia da UNIVALI, é responsável pelo atendimento pedagógico especializado de usuários surdos.
-    Existe há 44 anos na UNIVALI e presta um importante serviço na área da Educação Especial.
-    Além de estar vinculado ao curso de fonoaudiologia, temos parceria com a Fundação Catarinense de Educação Especial.</p>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center hero-content">
+          <h1 class="display-3 fw-bold mb-4">Serviço de Atendimento à Pessoa Surda</h1>
+          <p class="lead mb-4">Há 44 anos na UNIVALI, prestando um importante serviço na área da Educação Especial e promovendo a inclusão através do atendimento pedagógico especializado de usuários surdos.</p>
+          <a href="#sobre" class="btn btn-primary btn-lg px-4 py-2">
+            <i class="bi bi-arrow-down me-2"></i>Conheça Nossa História
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="libras">
-    <h2>Aprenda o alfabeto<br>em<br><strong>Libras</strong></h2>
-    <p> Comece a aprender o alfabeto em Libras de forma simples e divertida. Um recurso acessível e gratuito para todos os públicos!</p>
-    <a href="https://saps-game.pages.dev/" class="btn">Acessar</a>
+  <!-- About Section -->
+  <section id="sobre" class="py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-5">
+          <h2 class="display-4 text-gradient fw-bold mb-4">Sobre o SAPS</h2>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card card-custom animate-on-scroll">
+            <div class="card-body p-5">
+              <p class="lead mb-4">O Serviço de Atendimento à Pessoa Surda (SAPS), vinculado ao Curso de Fonoaudiologia da UNIVALI, é responsável pelo atendimento pedagógico especializado de usuários surdos.</p>
+              
+              <p class="mb-4">Existe há 44 anos na UNIVALI e presta um importante serviço na área da Educação Especial. Além de estar vinculado ao curso de fonoaudiologia, temos parceria com a Fundação Catarinense de Educação Especial.</p>
+              
+              <p class="mb-0">Nossa missão é promover a inclusão social e educacional da pessoa surda, oferecendo atendimento especializado e desenvolvendo ações que contribuam para a construção de uma sociedade mais acessível e inclusiva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="oficinas">
-    <h2>Oficinas</h2>
-    <p>Entre suas ações, destacam-se as oficinas que abrangem diferentes áreas para atender as múltiplas necessidades dos educandos. São realizadas oficinas de Estimulação Essencial, com foco na oralização e alfabetização; oficinas de Libras para os educandos e o projeto “Café com Libras” voltado para as famílias; Oficinas de Língua Portuguesa/Bilingue - modalidade escrita; além das oficinas do PROEP, que iniciam a preparação do educando para o mercado de trabalho. O SAPS também promove oficinas de Psicomotricidade e Educação Física, Tecnologia e Informática, e conta com aulas de Xadrez em parceria com a FMEL - Fundação Municipal de Esporte e Lazer de Itajaí. Todas essas iniciativas reforçam o compromisso do SAPS com o desenvolvimento global dos usuários surdos e a construção de uma sociedade mais acessível e inclusiva.
-</p>
-    <a href="oficinas.html" class="btn">Ver Oficinas</a>
+  <!-- Libras Section -->
+  <section id="libras" class="libras-section py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center libras-content">
+          <h2 class="display-4 fw-bold mb-4">
+            Aprenda o alfabeto<br>em<br><strong>Libras</strong>
+          </h2>
+          <p class="lead mb-4">Comece a aprender o alfabeto em Libras de forma simples e divertida. Um recurso acessível e gratuito para todos os públicos!</p>
+          <a href="https://saps-game.pages.dev/" class="btn btn-primary btn-lg px-4 py-2" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-controller me-2"></i>Acessar Jogo
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato com nossa equipe para saber mais sobre o SAPS e nossas ações. Estamos à disposição para tirar dúvidas e firmar parcerias!</p>
-    <a href="https://www.instagram.com/sapsunivali/" class="btn" target="_blank">Fale Conosco</a>
+  <!-- Oficinas Preview Section -->
+  <section id="oficinas" class="section-alt py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-5">
+          <h2 class="display-4 text-gradient fw-bold mb-4">Nossas Oficinas</h2>
+          <p class="lead">Entre suas ações, destacam-se as oficinas que abrangem diferentes áreas para atender as múltiplas necessidades dos educandos.</p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <img src="assets/images/Libras.png" class="card-img-top" alt="Oficina de Libras" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Oficina de Libras</h5>
+              <p class="card-text">Espaço dinâmico e inclusivo para o aprendizado da Língua Brasileira de Sinais, fortalecendo a comunicação e a cultura surda.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <img src="assets/images/informatica.png" class="card-img-top" alt="Oficina de Informática" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Oficina de Informática</h5>
+              <p class="card-text">Contato com ferramentas digitais e tecnologia, ampliando habilidades para inclusão digital e o mundo do trabalho.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <img src="assets/images/educacaofisica.png" class="card-img-top" alt="Oficina de Educação Física" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Psicomotricidade/Educação Física</h5>
+              <p class="card-text">Desenvolvimento motor, cognitivo e socioafetivo através de atividades lúdicas e corporais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <a href="oficinas.html" class="btn btn-primary btn-lg px-4 py-2">
+            <i class="bi bi-grid-3x3-gap me-2"></i>Ver Todas as Oficinas
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; SAPS • 2025</p>
+  <!-- Contact Section -->
+  <section id="contato" class="py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-5">
+          <h2 class="display-4 text-gradient fw-bold mb-4">Entre em Contato</h2>
+          <p class="lead">Estamos à disposição para tirar dúvidas e firmar parcerias!</p>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card card-custom animate-on-scroll">
+            <div class="card-body p-5 text-center">
+              <h5 class="card-title mb-4">Fale Conosco</h5>
+              <p class="card-text mb-4">Entre em contato com nossa equipe para saber mais sobre o SAPS e nossas ações. Acompanhe também nossas redes sociais para ficar por dentro das novidades!</p>
+              
+              <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a href="https://www.instagram.com/sapsunivali/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-instagram icon-lg me-2"></i>Instagram
+                </a>
+                <a href="mailto:saps@univali.br" class="btn btn-outline-primary">
+                  <i class="bi bi-envelope icon-lg me-2"></i>Email
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-2">&copy; 2025 SAPS - Serviço de Atendimento à Pessoa Surda | UNIVALI</p>
+          <p class="mb-0 opacity-75">
+            <small>Promovendo inclusão e educação especial há 44 anos</small>
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom Scripts -->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

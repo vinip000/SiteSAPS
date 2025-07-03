@@ -1,87 +1,246 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Oficinas - SAPS</title>
-  <link rel="stylesheet" href="global.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça todas as oficinas do SAPS - UNIVALI. Oficinas de Libras, Informática, Educação Física, Língua Portuguesa Bilíngue, Xadrez e muito mais para a inclusão da pessoa surda.">
+  <meta name="keywords" content="oficinas SAPS, Libras, educação especial, pessoa surda, inclusão, UNIVALI">
+  <meta name="author" content="SAPS - UNIVALI">
+  
+  <title>Oficinas - SAPS | Serviço de Atendimento à Pessoa Surda</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.jpg">
 </head>
 <body>
-  <header>
-    <img src="imagens/logo.jpg" alt="Logo SAPS" />
-    <nav>
-  <a href="index.html#sobre">Sobre</a>
-  <a href="index.html#libras">Libras</a>
-  <a href="oficinas.html">Oficinas</a>
-  <a href="index.html#contato">Contato</a>
-</nav>
-
-  </header>
-
-  <section class="oficinas">
-    <h2>Oficinas</h2>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Estimulação Essencial</h3>
-        <p>Estimular as habilidades auditivas de educandos surdos usuários de tecnologias auditivas, como Aparelho de Amplificação Sonora Individual (AASI) e/ou Implante Coclear, promovendo com atividades pedagógicas a ampliação do vocabulário na linguagem oral e escrita (alfabetização).</p>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Logo SAPS" class="img-fluid">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#libras">Libras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="oficinas.html">Oficinas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contato">Contato</a>
+          </li>
+        </ul>
       </div>
-      <img src="./imagens/Imagem1.png" alt="Oficina de Estimulação Essencial">
     </div>
+  </nav>
 
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Informática</h3>
-        <p>A oficina de Informática do SAPS proporciona aos participantes o contato com ferramentas digitais e noções básicas de tecnologia, visando ampliar suas habilidades no uso do computador e na navegação em ambientes virtuais. Com uma abordagem prática e acessível, busca estimular a autonomia, a criatividade e o aprendizado contínuo, contribuindo para a inclusão digital e para o fortalecimento das competências necessárias no dia a dia e no mundo do trabalho.</p>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center hero-content">
+          <h1 class="display-3 fw-bold mb-4">Nossas Oficinas</h1>
+          <p class="lead mb-4">Conheça todas as oficinas que desenvolvemos para atender as múltiplas necessidades dos educandos e promover a inclusão social e educacional da pessoa surda.</p>
+          <a href="#oficinas-completas" class="btn btn-primary btn-lg px-4 py-2">
+            <i class="bi bi-arrow-down me-2"></i>Explorar Oficinas
+          </a>
+        </div>
       </div>
-      <img src="./imagens/informatica.png" alt="Oficina de Informática">
-    </div>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Libras</h3>
-        <p>Oferece um espaço dinâmico e inclusivo para o aprendizado da Língua Brasileira de Sinais. A oficina visa ampliar a comunicação entre ouvintes e pessoas surdas, fortalecendo a acessibilidade e a conscientização sobre a cultura surda.</p>
-      </div>
-      <img src="./imagens/Libras.png" alt="Oficina de Libras">
-    </div>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Psicomotricidade/Educação Física</h3>
-        <p>A oficina de Psicomotricidade/Educação Física,  tem como objetivo estimular o desenvolvimento motor, cognitivo e socioafetivo das pessoas surdas por meio de atividades lúdicas e corporais.</p>
-      </div>
-      <img src="./imagens/educacaofisica.png" alt="Oficina de Educação Física">
-    </div>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Língua Portuguesa - Bilingue</h3>
-        <p>São trabalhadas estratégias para o desenvolvimento da leitura e da escrita, ampliando o vocabulário e as competências comunicativas dos educandos. Ao adotar uma abordagem bilíngue, a oficina fortalece a autonomia dos participantes na compreensão e produção de textos, contribuindo para o seu desenvolvimento acadêmico e a sua inclusão na sociedade.
-</p>
-      </div>
-      <img src="./imagens/Bilingue.png" alt="Oficina de Língua Portuguesa">
-    </div>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Xadrez</h3>
-       <p>As aulas de Xadrez do SAPS, em parceria com a FMEL, oferecem aos participantes a oportunidade de explorar esse jogo como ferramenta educativa e de estímulo cognitivo. Por meio das partidas e exercícios, desenvolvem-se habilidades como concentração, raciocínio lógico, planejamento e tomada de decisão.
-</p>
-      </div>
-      <img src="./imagens/Xadrez.png" alt="Oficina de Xadrez">
-    </div>
-
-    <div class="oficina">
-      <div class="oficina-text">
-        <h3>Oficina de Libras - Café com Libras</h3>
-        <p>Promover o ensino da LIBRAS para as famílias dos educandos, estabelecendo uma comunicação efetiva com seus filhos, além de proporcionar o conhecimento desta língua e sua importância frente a comunidade surda ao qual estão inseridos. </p>
-      </div>
-      <img src="./imagens/cafecomlibras.png" alt="Oficina Café com Libras">
     </div>
   </section>
 
-  <footer>
-    <p>&copy; SAPS • 2025</p>
+  <!-- Oficinas Section -->
+  <section id="oficinas-completas" class="section-alt py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-5">
+          <h2 class="display-4 text-gradient fw-bold mb-4">Todas as Oficinas</h2>
+          <p class="lead">Cada oficina é desenvolvida com foco no desenvolvimento integral dos nossos educandos, respeitando suas necessidades e potencialidades.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="assets/images/Imagem1.png" class="img-fluid rounded-start h-100" alt="Oficina de Estimulação Essencial" loading="lazy" style="object-fit: cover;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Estimulação Essencial</h5>
+                  <p class="card-text">Estimular as habilidades auditivas de educandos surdos usuários de tecnologias auditivas, como Aparelho de Amplificação Sonora Individual (AASI) e/ou Implante Coclear, promovendo com atividades pedagógicas a ampliação do vocabulário na linguagem oral e escrita (alfabetização).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Informática</h5>
+                  <p class="card-text">A oficina de Informática do SAPS proporciona aos participantes o contato com ferramentas digitais e noções básicas de tecnologia, visando ampliar suas habilidades no uso do computador e na navegação em ambientes virtuais. Com uma abordagem prática e acessível, busca estimular a autonomia, a criatividade e o aprendizado contínuo.</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img src="assets/images/informatica.png" class="img-fluid rounded-end h-100" alt="Oficina de Informática" loading="lazy" style="object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="assets/images/Libras.png" class="img-fluid rounded-start h-100" alt="Oficina de Libras" loading="lazy" style="object-fit: cover;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Libras</h5>
+                  <p class="card-text">Oferece um espaço dinâmico e inclusivo para o aprendizado da Língua Brasileira de Sinais. A oficina visa ampliar a comunicação entre ouvintes e pessoas surdas, fortalecendo a acessibilidade e a conscientização sobre a cultura surda.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Psicomotricidade/Educação Física</h5>
+                  <p class="card-text">A oficina de Psicomotricidade/Educação Física tem como objetivo estimular o desenvolvimento motor, cognitivo e socioafetivo das pessoas surdas por meio de atividades lúdicas e corporais.</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img src="assets/images/educacaofisica.png" class="img-fluid rounded-end h-100" alt="Oficina de Educação Física" loading="lazy" style="object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="assets/images/Bilingue.png" class="img-fluid rounded-start h-100" alt="Oficina de Língua Portuguesa" loading="lazy" style="object-fit: cover;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Língua Portuguesa - Bilíngue</h5>
+                  <p class="card-text">São trabalhadas estratégias para o desenvolvimento da leitura e da escrita, ampliando o vocabulário e as competências comunicativas dos educandos. Ao adotar uma abordagem bilíngue, a oficina fortalece a autonomia dos participantes na compreensão e produção de textos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card card-custom h-100 animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Xadrez</h5>
+                  <p class="card-text">As aulas de Xadrez do SAPS, em parceria com a FMEL, oferecem aos participantes a oportunidade de explorar esse jogo como ferramenta educativa e de estímulo cognitivo. Por meio das partidas e exercícios, desenvolvem-se habilidades como concentração, raciocínio lógico, planejamento e tomada de decisão.</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <img src="assets/images/Xadrez.png" class="img-fluid rounded-end h-100" alt="Oficina de Xadrez" loading="lazy" style="object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="card card-custom animate-on-scroll hover-lift">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/cafecomlibras.png" class="img-fluid rounded-start h-100" alt="Oficina Café com Libras" loading="lazy" style="object-fit: cover;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Oficina de Libras - Café com Libras</h5>
+                  <p class="card-text">Promover o ensino da LIBRAS para as famílias dos educandos, estabelecendo uma comunicação efetiva com seus filhos, além de proporcionar o conhecimento desta língua e sua importância frente a comunidade surda ao qual estão inseridos.</p>
+                  <p class="card-text"><small class="text-muted">Especialmente desenvolvida para famílias</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-8">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card card-custom animate-on-scroll">
+            <div class="card-body p-5 text-center">
+              <h2 class="card-title mb-4">Interessado em Participar?</h2>
+              <p class="card-text mb-4">Entre em contato conosco para saber mais sobre nossas oficinas e como participar. Estamos sempre abertos a novos participantes e parcerias.</p>
+              <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a href="index.html#contato" class="btn btn-primary btn-lg">
+                  <i class="bi bi-envelope me-2"></i>Entre em Contato
+                </a>
+                <a href="https://www.instagram.com/sapsunivali/" class="btn btn-outline-primary btn-lg" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-instagram me-2"></i>Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-2">&copy; 2025 SAPS - Serviço de Atendimento à Pessoa Surda | UNIVALI</p>
+          <p class="mb-0 opacity-75">
+            <small>Promovendo inclusão e educação especial há 44 anos</small>
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom Scripts -->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
